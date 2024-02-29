@@ -11,6 +11,16 @@
     "commitmsg": "commitlint -E HUSKY_GIT_PARAMS",
     "commit": "cz"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx --no-install commitlint --edit $1"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
