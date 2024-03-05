@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'montseratMedium';
+  src: url('../assets/fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
+footer {
+  background: var(--titulo);
+  color: var(--branco);
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'montserratMedium', sans-serif;
+}
