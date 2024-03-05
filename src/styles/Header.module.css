@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'montserratMedium';
+  src: url('../assets/fonts/Montserrat-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'montserratBold';
+  src: url('../assets/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+.cabecalho > p {
+  font-family: 'montserratMedium', sans-serif;
+  background: var(--titulo);
+  color: var(--bgCard);
+  padding: 20px 0;
+  text-align: center; 
+}
+
+.cabecalho .nomeLoja {
+  font-family: 'montserratBold', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--titulo);
+  padding: 15px 0;
+}
+
+.cabecalho .conteinerImagemBg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('../assets/img/wallpaper.jpeg') center center / cover no-repeat fixed;
+  height: 370px;
+  padding: 4rem 0 4rem 4rem;
+  color: var(--bgCard);
+  position: relative;
+}
+
+.cabecalho .filtroImagemBg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+}
+
+.cabecalho h2,
+.cabecalho p {
+  position: inherit;
+}
+
+.cabecalho h2 {
+  font-family: 'montserratBold', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cabecalho .conteinerImagemBg p {
+  font-family: 'montserratMedium', sans-serif;
+  line-height: 2;
+  width: 25rem;
+}
