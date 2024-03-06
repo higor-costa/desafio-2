@@ -1,38 +1,46 @@
 import React from 'react';
 
 import styles from '../styles/Main.module.css';
+import srcJordan1 from '../assets/img/1.png';
+import srcJordan2 from '../assets/img/2.png';
+import srcJordan3 from '../assets/img/3.png';
+import srcJordan4 from '../assets/img/4.png';
+import srcJordan5 from '../assets/img/5.png';
+import srcJordan6 from '../assets/img/6.png';
+import srcJordan7 from '../assets/img/7.png';
+import srcJordan8 from '../assets/img/8.png';
 
 const tenis = [
   {
-    imgSrc: '../src/assets/img/1.png',
+    imgSrc: srcJordan1,
     alt: 'Jordan 1',
   },
   {
-    imgSrc: '../src/assets/img/2.png',
+    imgSrc: srcJordan2,
     alt: 'Jordan 2',
   },
   {
-    imgSrc: '../src/assets/img/3.png',
+    imgSrc: srcJordan3,
     alt: 'Jordan 3',
   },
   {
-    imgSrc: '../src/assets/img/4.png',
+    imgSrc: srcJordan4,
     alt: 'Jordan 4',
   },
   {
-    imgSrc: '../src/assets/img/5.png',
+    imgSrc: srcJordan5,
     alt: 'Jordan 5',
   },
   {
-    imgSrc: '../src/assets/img/6.png',
+    imgSrc: srcJordan6,
     alt: 'Jordan 6',
   },
   {
-    imgSrc: '../src/assets/img/7.png',
+    imgSrc: srcJordan7,
     alt: 'Jordan 7',
   },
   {
-    imgSrc: '../src/assets/img/8.png',
+    imgSrc: srcJordan8,
     alt: 'Jordan 8',
   },
 ];
