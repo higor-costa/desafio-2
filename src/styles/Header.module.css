@@ -59,3 +59,17 @@
   line-height: 2;
   width: 25rem;
 }
+
+@media screen and (max-width: 767px) {
+  .cabecalho h2 {
+    font-size: 1.5rem;
+  }
+
+  .cabecalho .conteinerImagemBg {
+    padding: 0 1.5rem;
+  }
+
+  .cabecalho .conteinerImagemBg p {
+    width: 100%;
+  }
+}
